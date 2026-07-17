@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JAANUPOINT Fashion Store</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+header{
+background:#000;
+padding:15px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#ffcc00;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:linear-gradient(135deg,#111,#222);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#25D366;
+padding:12px 25px;
+text-decoration:none;
+color:white;
+border-radius:5px;
+}
+
+.search-box{
+padding:30px;
+text-align:center;
+}
+
+.search-box input{
+width:80%;
+max-width:500px;
+padding:12px;
+border:none;
+border-radius:5px;
+}
+
+.categories{
+padding:20px;
+text-align:center;
+}
+
+.cat{
+display:inline-block;
+background:#222;
+padding:10px 20px;
+margin:5px;
+border-radius:20px;
+}
+
+.products{
+padding:40px 5%;
+}
+
+.products h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+.price{
+color:#ffcc00;
+font-size:22px;
+font-weight:bold;
+}
+
+button{
+background:#25D366;
+color:white;
+border:none;
+padding:10px 15px;
+margin-top:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.coming{
+text-align:center;
+padding:50px 20px;
+}
+
+.contact{
+padding:50px 20px;
+text-align:center;
+background:#111;
+}
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">JAANUPOINT</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>JAANUPOINT Fashion Store</h1>
+<p>Nizampur No.1 Clothing Store</p>
+
+<a class="btn" href="https://wa.me/919313194181">
+Contact On WhatsApp
+</a>
+</section>
+
+<section class="search-box">
+<input type="text" placeholder="Search Products...">
+</section>
+
+<section class="categories">
+<span class="cat">Men</span>
+<span class="cat">Women (Coming Soon)</span>
+<span class="cat">Kids (Coming Soon)</span>
+<span class="cat">Hoodies (Coming Soon)</span>
+<span class="cat">T-Shirts (Coming Soon)</span>
+<span class="cat">Jeans</span>
+</section>
+
+<section class="products" id="products">
+
+<h2>Featured Products</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500" alt="">
+<h3>Premium Cotton Shirt</h3>
+<p class="price">₹599</p>
+<a href="https://wa.me/919313194181?text=I want Premium Cotton Shirt">
+<button>WhatsApp Order</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500" alt="">
+<h3>Casual Slim Fit Shirt</h3>
+<p class="price">₹699</p>
+<a href="https://wa.me/919313194181?text=I want Casual Slim Fit Shirt">
+<button>WhatsApp Order</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500" alt="">
+<h3>Regular Fit Jeans</h3>
+<p class="price">₹999</p>
+<a href="https://wa.me/919313194181?text=I want Regular Fit Jeans">
+<button>WhatsApp Order</button>
+</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500" alt="">
+<h3>Black Formal Shirt</h3>
+<p class="price">₹799</p>
+<a href="https://wa.me/919313194181?text=I want Black Formal Shirt">
+<button>WhatsApp Order</button>
+</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="coming">
+<h2>Coming Soon</h2>
+<p>Women Collection, Kids Wear, Hoodies, T-Shirts & More</p>
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<br>
+
+<p><b>Owner:</b> Pathan Jaanmahmad Khan M.</p>
+<p><b>Phone:</b> +91 93131 94181</p>
+<p><b>Email:</b> rohanpathan@gmail.com</p>
+
+<br>
+
+<a class="btn" href="https://www.instagram.com/rohan_pathan97/" target="_blank">
+Instagram
+</a>
+
+<br><br>
+
+<a class="btn" href="https://wa.me/919313194181">
+WhatsApp Order
+</a>
+
+<br><br>
+
+<p>Nizampur, Taluka Mahudha, District Kheda, Gujarat</p>
+
+</section>
+
+<footer>
+<p>© 2026 JAANUPOINT Fashion Store</p>
+<p>All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
